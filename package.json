@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build docs",
+    "docs:build:clean": "rm -rf docs/.vuepress/.temp docs/.vuepress/.cache && pnpm docs:build",
     "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
     "docs:dev": "vuepress-vite dev docs",
     "docs:update-package": "pnpm dlx vp-update"
