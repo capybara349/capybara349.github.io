@@ -1,9 +1,0 @@
-
-# pnpm编译内容
-node_modules/
-src/.vuepress/.cache/
-src/.vuepress/.temp/
-src/.vuepress/dist/
-
-# idea 内容
-.idea
