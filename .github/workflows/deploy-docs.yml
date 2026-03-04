@@ -22,14 +22,12 @@ jobs:
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9  # 指定 pnpm 版本，避免最新版可能的问题
 
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: pnpm
 
       - name: 安装依赖
@@ -48,5 +46,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
-          branch: main
+          branch: gh-pages
           folder: src/.vuepress/dist
