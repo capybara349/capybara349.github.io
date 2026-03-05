@@ -14,6 +14,9 @@ title: Capybara349 Home Page
 
 ### 集合
 
+- [ArrayList 源码分析](java/collection/arraylist-debug-analysis.md)
+- [Java 集合面试题](java/collection/java-list.md)
+
 ### Input/Output
 
 ### 并发
