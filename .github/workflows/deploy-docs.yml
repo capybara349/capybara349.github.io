@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: v24.14.0
-#          cache: pnpm
+          cache: pnpm
 
       - name: Install dependency
         run: pnpm install --frozen-lockfile
@@ -32,4 +32,4 @@ jobs:
       - name: Build docs
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run docs:build
+        run: pnpm run docs:build:clean
