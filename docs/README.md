@@ -10,7 +10,6 @@ bgImageStyle:
 heroText: Capybara349 Docs
 tagline: Capybara349 Docs
 actions:
-
   - text: 开始阅读
     link: /home.md
     type: primary
