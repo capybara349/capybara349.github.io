@@ -6,7 +6,7 @@ import sidebar from "./sidebar/index.js";
 export default hopeTheme({
     hostname: "https://capybara349.github.io/",
 
-    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+    logo: "/small-black.png",
 
     author: {
         name: "capybara349",
@@ -78,7 +78,7 @@ export default hopeTheme({
         },
 
         icon: {
-            prefix: "fa6-solid:",
+            assets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
         },
 
     },
