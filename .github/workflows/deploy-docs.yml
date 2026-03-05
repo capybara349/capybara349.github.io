@@ -46,7 +46,7 @@ jobs:
       - name: Build docs
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run docs:build:clean
+        run: pnpm run docs:build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
