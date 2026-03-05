@@ -1,7 +1,6 @@
 ---
 title: 理解 Java 中的参数传递机制：值传递还是引用传递？
 icon: circle-info
-category: Java
 description: 理解 Java 中的参数传递机制：值传递还是引用传递？
 tag:
   - Java基础
