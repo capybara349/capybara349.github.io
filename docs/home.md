@@ -1,7 +1,6 @@
 ---
 icon: house
 title: Capybara349 Home Page
-description: 1
 ---
 
 ## Java
