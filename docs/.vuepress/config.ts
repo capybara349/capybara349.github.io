@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base:"/",
+  // 配置输出路径为 dist
   dest: "./dist",
 
   lang: "zh-CN",
