@@ -24,7 +24,7 @@ jobs:
       - name: Build docs
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run docs:build  # 确保生成 dist 目录
+        run: pnpm run docs:build:clean  # 确保生成 dist 目录
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
