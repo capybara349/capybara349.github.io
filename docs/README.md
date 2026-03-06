@@ -28,3 +28,6 @@ footer: MIT 协议, 版权所有 © 2026-至今 Mr.Capybara349
 - [ArrayList 源码分析](./java/collection/arraylist-debug-analysis.md)：ArrayList 核心源码分析
 - [Java 集合面试题](./java/collection/java-list.md)：Java 集合面试题
 
+## JVM (Java Virtual Machine)
+
+- [JVM 常见参数](./java/jvm/java-jvm-common-parameters.md)：JVM 常见参数

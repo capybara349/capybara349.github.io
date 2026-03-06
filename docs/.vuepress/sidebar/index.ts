@@ -39,6 +39,14 @@ export default sidebar({
                     ]),
                 ],
             },
+            {
+                text: "JVM",
+                icon: ICONS.BASIC,
+                prefix: "jvm/",
+                children: [
+                    "java-jvm-common-parameters",
+                ],
+            },
         ]
     }]
 });

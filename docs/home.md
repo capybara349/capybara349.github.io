@@ -20,3 +20,7 @@ title: Capybara349 Home Page
 ### Input/Output
 
 ### 并发
+
+### JVM
+
+- [JVM 常见参数配置](./java/jvm/java-jvm-common-parameters.md)
